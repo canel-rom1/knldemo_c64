@@ -1,6 +1,7 @@
 !source "./libs/bootloader.asm"
 +start_at $1000
 
+jsr $E544
 
 lda #8		;set2 H
 sta $400	;H in 400 screen memory
